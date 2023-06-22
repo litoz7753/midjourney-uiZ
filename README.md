@@ -36,7 +36,7 @@ docker run --env-file .env -p 3000:3000 erictik/midjourney-ui
 ```
 or
 ```bash
-docker run -e SALAI_TOKEN=xxxxxxxx  -e SERVER_ID=xxxxxxxx -e CHANNEL_ID=xxxxxxxx -p 3000:3000 erictik/midjourney-ui
+docker run -e SALAI_TOKEN=NTgzNTA4NTE0OTc5NDQ2Nzg2.GLUUuU.ZtxBRTFuTP0Eaw1FJHsga62bC00PtQNNeJg1SI  -e SERVER_ID=1082500871478329374 -e CHANNEL_ID=1094892992281718894 -p 3000:3000 erictik/midjourney-ui
 ```
 
 ## Runnning locally
@@ -65,10 +65,10 @@ yarn
  [How to HUGGINGFACE_TOKEN](https://huggingface.co/docs/hub/security-tokens)  
  
 ```bash
-export SALAI_TOKEN=xxxxxxxx
-export SERVER_ID=xxxxxxxx
-export CHANNEL_ID=xxxxxxxx
-export HUGGINGFACE_TOKEN=xxx
+export SALAI_TOKEN=NTgzNTA4NTE0OTc5NDQ2Nzg2.GLUUuU.ZtxBRTFuTP0Eaw1FJHsga62bC00PtQNNeJg1SI
+export SERVER_ID=1082500871478329374
+export CHANNEL_ID=1094892992281718894
+export HUGGINGFACE_TOKEN=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
 
 ```
 
